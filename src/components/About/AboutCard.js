@@ -7,34 +7,37 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+          <p style={{ textAlign: "justify", letterSpacing: "1px" }}>
+            Hej allihop, jag heter <span className="purple">Gustav Kindgren </span>
+            och jag bor just nu i <span className="purple">Linköping </span>
+            <br /> 
+            <br /> 
+            Jag har precis tagit examen från <br/> 
+            <span className="purple">Linköpings universitet </span>
+           som <span className="purple">systemvetare </span>
+           <br />
+           <br />
+             Jag är just nu anställd som Systemutvecklare på Fujitsu
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Utöver programmering så gillar jag även
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Åka skidor
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Träna
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Resa
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Koda. Skapa. Förändra"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>
