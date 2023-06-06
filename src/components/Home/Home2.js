@@ -15,43 +15,34 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-            <span className="purple"> Vem är </span>  Gustav Kindgren?  <span className="white"></span>
-            </h1>
-            <p className="home-about-body">
-              Jag gillar programmering och jag hoppas jag lärt mig någonting under mina tre år på systemvetenskapliga programmet i Linköping
-              <br />
-              <br />Jag pratar helst
-              <i>
-                <b className="purple"> C# och C++ </b> över en kopp <b className="purple">Java </b>
-              </i>
-              <br />
-              <br />
-              Som backend-utvecklare trivs jag med att bygga och optimera robusta 
-              <b className="purple"> serverapplikationer, </b> 
-              utveckla skalbara  <b className="purple">API:er </b>  för webbapplikationer och hantera 
-              <b className="purple"> databaser </b>för effektiv datalagring.  &nbsp;
-              <i>
-                
-                
-              
-              </i>
-              <br />
-              <br />
-              Jag gillar att arbeta med verktyg som
-               <b className="purple"> ASP.NET,</b>
-              <i>
-                <b className="purple">
-                  {" "}
-                  Entity Framework  
-                </b>
-                {" "} och
-              </i>
-              &nbsp; 
-              <i>
-                <b className="purple">.NET core</b>
-              </i>
-            </p>
+          <h1 style={{ fontSize: "2.6em" }}>
+  <span className="purple"> Hej, jag är </span> Gustav Kindgren! <span className="white"></span>
+</h1>
+<p className="home-about-body">
+  Med ett genuint intresse för teknik och problemlösning har jag ägnat de senaste åren till att fördjupa mig i programmeringens värld under mina studier vid systemvetenskapliga programmet i Linköping.
+  <br />
+  <br /> Jag trivs bäst med att skriva kod i
+  <i>
+    <b className="purple"> C# och C++, </b>
+  </i> men jag har också god erfarenhet av <b className="purple">Java </b> och jag är inte rädd för att lära mig nya programmeringsspråk och tekniker.
+  <br />
+  <br /> Som den backend-utvecklaren jag är fokuserar jag på att bygga robusta 
+  <b className="purple"> serverapplikationer, </b> utveckla skalbara <b className="purple">API:er </b> för webbapplikationer och hantera
+  <b className="purple"> databaser </b> för effektiv datalagring. 
+  <br />
+  <br /> Till mina favoritverktyg hör 
+  <b className="purple"> ASP.NET,</b>
+  <i>
+    <b className="purple"> Entity Framework </b> 
+  </i> och
+  <i>
+    <b className="purple">.NET core.</b>
+  </i>
+  <br />
+  <br /> Utöver min passion för programmering, värdesätter jag en aktiv livsstil och jag tror att balansen mellan arbete och fritid är nyckeln till en hållbar produktivitet och kreativitet.
+</p>
+
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
