@@ -11,7 +11,10 @@ function Type() {
           "Backend-utvecklare",
           "Problemlösare",
           "Lagspelare",
-          "Ständigt lärande",
+          "Kommunikatör",
+          "IT-konsult",
+          "Fullstack-utvecklare",
+
 
         ],
         autoStart: true,

@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/lwave.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,7 +15,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
           <h1 style={{ fontSize: "2.6em" }}>
-  <span className="purple"> Hej, jag är </span> Gustav Kindgren! <span className="white"></span>
+          Låt mig <span className="purple"> presentera</span> mig själv 
 </h1>
 <p className="home-about-body">
   Med ett genuint intresse för teknik och problemlösning har jag ägnat de senaste åren till att fördjupa mig i programmeringens värld under mina studier vid systemvetenskapliga programmet i Linköping.

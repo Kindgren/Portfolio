@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../Assets/Projects/saks.png";
+import hacke from "../../Assets/Projects/hacke.png";
 
 function Systemvetenskap() {
   return (
@@ -26,7 +27,7 @@ function Systemvetenskap() {
             </p>
 
             <p>
-              Genom att anställa en <span className="purple">systemvetare</span> får du tillgång till en teknisk expert som kan driva och stödja <span className="purple">digital transformation</span>, optimera <span className="purple">system</span> och <span className="purple">applikationer</span> samt förbättra företagets <span className="purple">IT-infrastruktur</span>. Jag är dedikerad att bygga tekniska lösningar som gör en verklig skillnad och bidrar till företagets framgång.
+              
             </p>
             <h1 className="section-heading" style={{ paddingBottom: "20px", textAlign: "center" }}> 
   Vad kan en <span className="purple">systemvetare</span>?
@@ -66,6 +67,7 @@ function Systemvetenskap() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={hacke} alt="about" className="img-fluid" />
           </Col>
         </Row>
       </Container>
