@@ -33,16 +33,13 @@ function Systemvetenskap() {
                 Vad är en <span className="purple">systemvetare?</span>
               </h1>
               <div>
-      <p>En systemvetare är någon som kan förstå alla dessa olika 
-        <span className="purple"> komponenter </span> och hur de passar in i den större bilden. 
-        Vi har tekniska kunskaper, men vi kombinerar detta med en djup förståelse för 
-        <span className="purple"> affärsstrategi </span> och
-        <span className="purple"> projektledning</span> 
-         
-        . Denna kombination gör oss till de perfekta kandidaterna för rollerna som 
+      <p> Systemvetare har en hel del tekniska kunskaper, vilka vi kombinerar med en stark förståelse för 
+        <span className="purple"> affärsstrategier </span> och
+        <span className="purple"> projektledning</span>. Tack vare de tekniska kunskaperna
+        kan vi jobba som bland annat <span classname="purple">systemutvecklare </span> men denna kombination gör oss även till de perfekta kandidaterna för rollerna som 
         <span className="purple"> projektledare </span>, 
         <span className="purple"> systemanalytiker </span> och 
-        <span className="purple"> IT-strateger </span>, positioner som kräver en stark förståelse för både teknik och affärsverksamhet. 
+        <span className="purple"> IT-strateger</span>, positioner som kräver en stark förståelse för både teknik och affärsverksamhet. 
         Men det är inte allt. En av våra mest värdefulla färdigheter är vår förmåga att förstå och tolka affärsbehov i tekniska termer.
         Vi kan se helheten, inte bara de tekniska detaljerna, utan hur tekniken kan användas för att uppnå affärsmål. 
         Detta innebär att vi kan utforma, utveckla och implementera system som verkligen uppfyller företagets behov, snarare än att bara fokusera på teknisk funktionalitet. 
