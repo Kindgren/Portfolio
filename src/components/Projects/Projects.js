@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Avl from "../../Assets/Projects/avl.png";
+import Covid from "../../Assets/Projects/covid.png";
+import Tetris from "../../Assets/Projects/tetris.png";
 
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Tetris}
               isBlog={false}
               title="Tetris"
               description="Ett tetris-spel du kan spela direkt i din terminal"
@@ -31,7 +31,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Covid}
               isBlog={false}
               title="Covid Game"
               description="Ett spel där du antingen kan döda eller bli dödad av covid"
@@ -42,7 +42,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Avl}
               isBlog={false}
               title="AVL tree"
               description="En av flera olika laborationer från kursen : datastrukturer och algoritmer"

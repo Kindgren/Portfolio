@@ -21,9 +21,6 @@ function Systemvetenskap() {
     triggerOnce: true,
   });
 
-  const scrollToRef = (ref) => {
-    ref.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
-  }
 
   return (
     <Container fluid className="about-section">
@@ -35,23 +32,27 @@ function Systemvetenskap() {
               <h1 className="section-heading" style={{ paddingBottom: "20px", textAlign: "center" }}>
                 Vad är en <span className="purple">systemvetare?</span>
               </h1>
-              <p>
-              En <span className="purple">systemvetare</span> är mer än bara en expert inom <span className="purple">systemutveckling </span> 
-              och <span className="purple">IT-lösningar</span>. Som en systemvetare har jag en djupgående förståelse och gedigen 
-              erfarenhet inom det breda fältet av teknik, organisation och mänsklig interaktion, 
-              vilket utrustar mig för att hantera och lösa en mängd komplexa problem. Min kunskap sträcker sig 
-              över teknikens gränser till att förstå hur tekniken kan effektiviseras och integreras i organisatoriska 
-              processer för att leverera innovativa och effektiva lösningar som svarar mot verksamhetens behov och utmaningar.
-               Denna balans mellan teknik och organisation gör att jag kan skapa <span className="purple">system </span> 
-               och <span className="purple">applikationer</span> som inte bara är tekniskt avancerade utan också anpassade 
-               till organisationens struktur, processer och människors behov. Ytterligare en viktig aspekt av mitt arbete
-                som systemvetare är att kunna förena teknikens och människans perspektiv. 
-                Genom att kombinera mina analytiska färdigheter och kreativa tankegång, kan jag utforma tekniska 
-                lösningar som är intuitiva och lätta att använda för människor, vilket bidrar till att driva förändring 
-                och effektivitet. Mitt perspektiv som systemvetare handlar om att skapa harmoni mellan teknik, organisation 
-                och människan, och på så sätt kan jag bidra till att organisationer får ut det mesta av sina 
-                teknikinvesteringar och skapar en bättre arbetsmiljö för deras anställda.
-              </p>
+              <div>
+      <p>En systemvetare är någon som kan förstå alla dessa olika 
+        <span className="purple"> komponenter </span> och hur de passar in i den större bilden. 
+        Vi har tekniska kunskaper, men vi kombinerar detta med en djup förståelse för 
+        <span className="purple"> affärsstrategi </span> och
+        <span className="purple"> projektledning</span> 
+         
+        . Denna kombination gör oss till de perfekta kandidaterna för rollerna som 
+        <span className="purple"> projektledare </span>, 
+        <span className="purple"> systemanalytiker </span> och 
+        <span className="purple"> IT-strateger </span>, positioner som kräver en stark förståelse för både teknik och affärsverksamhet. 
+        Men det är inte allt. En av våra mest värdefulla färdigheter är vår förmåga att förstå och tolka affärsbehov i tekniska termer.
+        Vi kan se helheten, inte bara de tekniska detaljerna, utan hur tekniken kan användas för att uppnå affärsmål. 
+        Detta innebär att vi kan utforma, utveckla och implementera system som verkligen uppfyller företagets behov, snarare än att bara fokusera på teknisk funktionalitet. 
+        Vi är också mästare på att leda och koordinera IT-projekt. 
+        Med vår unika mix av teknik- och affärsförståelse kan vi fungera som en länk mellan olika team, se till att alla är på samma sida och att projektet fortskrider smidigt. 
+        Samtidigt, med vår kunskap om sambandet mellan människa teknik och organisation, kan vi skapa system som är användarvänliga och intuitiva, vilket är avgörande i en tid då användarupplevelsen ofta kan göra eller bryta ett system. 
+        Men vår roll slutar inte där. Med vår kombination av teknisk och affärskunskap kan vi också hjälpa till med att navigera genom de komplexa förändringsprocesser som ofta följer med införandet av ny teknik. 
+        Detta är särskilt viktigt i en tid då tekniken ständigt utvecklas och arbetsplatser ständigt anpassar sig.
+      </p>
+    </div>
             </div>
             <div ref={ref2} className={inView2 ? 'slide-in' : ''} style={{ paddingBottom: "50px" }}>
               <h1 className="section-heading" style={{ paddingBottom: "20px", textAlign: "center" }}>
@@ -59,9 +60,9 @@ function Systemvetenskap() {
               </h1>
               <p>
               Som <span className="purple">systemvetare</span> har jag en bred bas av kunskaper och färdigheter inom 
-              <span className="purple">datavetenskap</span>, <span className="purple">informationssystem</span> och 
+              <span className="purple"> datavetenskap</span>, <span className="purple">informationssystem</span> och 
               <span className="purple"> systemutveckling</span>. Jag kan bidra till att <span className="purple">utforma, utveckla
-               och implementera</span> tekniska lösningar för att optimera verksamheten. Min kunskap om <span className="purple">programmering </span> 
+              </span> och <span className="purple"> implementera</span> tekniska lösningar för att optimera verksamheten. Min kunskap om <span className="purple">programmering </span> 
                och <span className="purple">databaser</span> gör att jag kan utveckla anpassade mjukvarulösningar,
                medan min förståelse för <span className="purple">systemanalys</span> och <span className="purple">design </span> 
                säkerställer att dessa lösningar passar perfekt med företagets unika behov och mål. Dessutom, med mina kompetenser 
@@ -75,7 +76,7 @@ function Systemvetenskap() {
            
             <div ref={ref3} className={inView3 ? 'slide-in' : ''}>
             <h1 className="section-heading" style={{ paddingBottom: "20px", textAlign: "center" }}> 
-              Anställa en <span className="purple">systemvetare</span>?
+              Anställa en <span className="purple">systemvetare?</span>
             </h1>
             <p>
               Att anställa en <span className="purple">systemvetare</span> kan ge många fördelar för ditt företag. Här är några skäl till varför du bör överväga att anställa en systemvetare:
